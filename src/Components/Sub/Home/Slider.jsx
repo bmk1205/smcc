@@ -1,23 +1,16 @@
-import { Carousel,Image,Row} from "react-bootstrap"
-import { Header } from "../Commen/Header"
-import l1 from '../../../assets/image/im.jpg'
-import l2 from '../../../assets/image/im2.jpg'
+import { Carousel,Image} from "react-bootstrap"
+import f1 from '../../../assets/image/f1.png'
+import f2 from '../../../assets/image/f2.png'
 export const Slider=()=>{
-    return(<Row id="slider">
+    return(<>
       <Carousel>
             <Carousel.Item>
-                <Image src={l1} alt="image" width='100%' height='500 px'/>
-                <Carousel.Caption>
-                    <h3>About us</h3>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <Image src={l2} alt="image" width='100%' height='450 px'/>
-                <Carousel.Caption>
-                    <h3>HI</h3>
-                </Carousel.Caption>
-            </Carousel.Item>
+                <Image src={f1} alt="image" width='100%' height='500 px'/>
+            </Carousel.Item> 
+            {/* <Carousel.Item>
+                <Image src={f2} alt="image" width='100%' height='500 px'/>
+            </Carousel.Item>   */}
       </Carousel>
-    </Row>
+    </>
     )
 }

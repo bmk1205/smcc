@@ -14,7 +14,7 @@ export const Home=()=>
    <Wellcome/>
    <Services/>
    <Special/>
-   <Video/>
+   {/* <Video/> */}
    <Menbers/>
    <Footer/>
   </>)
